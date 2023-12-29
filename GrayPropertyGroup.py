@@ -141,7 +141,7 @@ def convert_df(df):
 
 
 csv = convert_df(variables_df)
-
+st.dataframe(variables_df)
 st.download_button(
    "Download Report",
    csv,
