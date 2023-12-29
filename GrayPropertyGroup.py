@@ -21,7 +21,7 @@ def set_bg_hack_url():
          unsafe_allow_html=True
      )
 
-set_bg_hack_url()
+#set_bg_hack_url()
 
 # Title
 st.title("Gray Property Group - Multifamily Financial Analysis")
