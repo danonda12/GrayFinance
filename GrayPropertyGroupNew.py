@@ -335,6 +335,7 @@ with st.expander("Net Cash Flow"):
 # if st.button("Export Variables as CSV"):
 # Create a Pandas DataFrame from the dictionary
 variables_df = pd.DataFrame(list(variables_data.items()), columns=["Variable Name", "Value"])
+st.dataframe(variables_df)
 
 @st.experimental_memo
 def convert_df(df):
